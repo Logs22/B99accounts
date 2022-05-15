@@ -13,8 +13,8 @@ trakt_icon = control.joinPath(control.artPath(), 'trakt.png')
 class Trakt():
 	def __init__(self):
 		self.api_endpoint = 'https://api-v2launch.trakt.tv/%s'
-		self.client_id = 'e3a8d1c673dfecb7f669b23ecbf77c75fcfd24d3e8c3dbc7f79ed995262fa1db'
-		self.client_secret = '73bee6aeee29cb75db4d8771458a440017f7cfe842e85f457ed9d81f7910b349'
+		self.client_id = 'd27058bdc6db47a222fbc4452b97b86d1d0f2e31268835d2d4684167b7f7f099'
+		self.client_secret = 'a0db39b08fff63747974229ea1e1384aebaf47deee936d05cc80bd3a3f6630ff'
 		self.expires_at = control.setting('trakt.expires')
 		self.token = control.setting('trakt.token')
 
